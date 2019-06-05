@@ -1,14 +1,66 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
+	<ion-toolbar color="#2B2A47">
+		<ion-title>
+			<ion-grid>
+				<ion-row class="header ion-justify-content-center">
+					Vos Tests
+				</ion-row>
+			</ion-grid>
+		</ion-title>
+	</ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+	<ion-grid class="actionBody" no-padding>
+		<ion-row class="actionRow">
+			<ion-col class="colContainer" size="12" size-sm push-sm="6">
+				<ion-row class="ion-justify-content-center">
+					<div class="actionContainer">
+						<div class="iconContainer">
+							<img src="assets/icon/dexterity.png">
+						</div>
+						<div class="descriptionContainer">
+							<span class="actionName">Dextérité</span>
+							<span class="actionState">Disponible</span>
+						</div>
+					</div>
+				</ion-row>
+				<ion-row class="ion-justify-content-center">
+					<div class="actionContainer">
+						<div class="iconContainer">
+							<img src="assets/icon/vision.png">
+						</div>
+						<div class="descriptionContainer">
+							<span class="actionName">Vision</span>
+							<span class="actionState">Disponible</span>
+						</div>
+					</div>
+				</ion-row>
+			</ion-col>
+			<ion-col class="colContainer" size="12" size-sm pull-sm="6">
+				<ion-row class="ion-justify-content-center">
+					<div class="actionContainer">
+						<div class="iconContainer">
+							<img src="assets/icon/walk.png">
+						</div>
+						<div class="descriptionContainer">
+							<span class="actionName">Marche</span>
+							<span class="actionState">Disponible</span>
+						</div>
+					</div>
+				</ion-row>
+				<ion-row class="ion-justify-content-center">
+					<div class="actionContainer">
+						<div class="iconContainer">
+							<img src="assets/icon/cognition.png">
+						</div>
+						<div class="descriptionContainer">
+							<span class="actionName">Cognition</span>
+							<span class="actionState">Disponible</span>
+						</div>
+					</div>
+				</ion-row>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
 </ion-content>

@@ -1,1 +1,50 @@
+ion-header {
+	--ion-color-base: #2B2A47;
+}
 
+.header {
+	color: white;
+}
+
+.colContainer {
+	background-image: linear-gradient(to bottom,#0F0E16 0,#43426E 100%);
+	height: 100%;
+	width: 100%;
+}
+
+div.actionContainer div.iconContainer {
+	background-image: linear-gradient(to right,#861E87 0,#2F3587 100%);
+	border: 10px solid lightblue;
+	border-radius: 50%;
+	margin-bottom: 10px;
+	text-align: center;
+
+	height: 200px;
+	width: 200px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.actionContainer div.iconContainer img {
+	height: 75%;
+}
+
+div.actionContainer div.descriptionContainer {
+	color: white;
+	display: flex;
+	font-weight: bold;
+	flex-direction: column;
+	text-align: center;
+}
+
+div.actionContainer div.descriptionContainer span.actionName {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+div.actionContainer div.descriptionContainer span.actionState {
+	font-size: 12px;
+	margin-bottom: 15px;
+}
